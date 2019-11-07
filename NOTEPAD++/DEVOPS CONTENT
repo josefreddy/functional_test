@@ -1,0 +1,171 @@
+basic requirement for Devops
+===================================
+1)LINUX (Basics)
+2)AWS(CLOUD)
+	EC2,VPC,S3,IAM.
+3)DEVOPS TOOLS
+	GIT,MAVEN,JENKINS,DOCKER,ANSIBLE	
+
+• Devops introduction
+====================================
+GIT(SCM)
+=====
+Installation
+• Version Controlling
+• Centralised and Distributed Version Controlling
+• Git local repo and GIT Hub
+• Configuration
+• Basic Commands
+• Branches
+• push and pull from GIT Hub
+• Git squash and stash
+• gitignore
+• Git Tags
+• Git rebase
+• Git merging and rebasing
+• Cherrypicking
+JENKINS(CI-CD)
+=======
+Getting started with Jenkins
+• Getting started with Jenkins
+• Introduction to Continuous Integration
+• Install Jenkins on windows and Linux
+• Setup of Dev environment,QA environment ,Prod Environment for Jenkins
+• Jenkins' Architecture and Terms of Jenkins
+• Jenkins UI : Dashboard 
+• Create Our First Jenkins Job
+Understanding stages of CI;-CD
+• Continuous download
+• Continuous build
+• Continuous deployment
+• Continuous testing
+• Continuous delivery
+Continuous Integration with Jenkins
+• Install Git and Jenkins GitHub Plugin
+• Install Maven on Our Local Box
+• Configure Jenkins to Work with Java, Git and Maven
+• Create our Jenkins Project
+• Trouble Shooting: Create our First Jenkins Project
+• Run our First Jenkins Build and Jenkins Workspace
+• Source Control Polling in Jenkins
+• Other Build Triggers of Jenkins
+• Archive Build Artifacts
+• Install and Configure Tomcat as the Staging Environment
+• Deploy to Staging Environment
+• Jenkins Build Pipeline
+• Parallel Jenkins Build
+• Deploy to Production
+• Trouble Shooting: Deploy to Production
+Distributed Builds
+• Introduction to Distributed Jenkins Build
+• Creating master slave setup
+• Install Jenkins Master Node in the Cloud
+• Install Jenkins Slave Agents in the Cloud
+• Concurrent Jenkins Build and Label Jenkins Build
+• Continuous Delivery with Jenkins
+• Code as Pipeline
+• CI-CD using Jenkinsfile
+• Groovy Scripting
+Pipeline
+• Scripted Pipeline
+• Declarative Pipeline
+=======================================================================
+DOCKER(CONTAINER Management)
+=======
+Docker Introduction
+• Installing Docker
+• Docker Introduction
+• Virtualization and Containerization
+• Code or Text Editor for Docker and Compose files
+Creating and Using Containers
+• Starting application server, databases and operating systems as containers
+• What Happens When We Run a Container
+• Container VS. VM
+• Manage Multiple Containers
+• Linking of containers
+• Docker Volumes
+• Reusable volumes
+• Getting a Shell Inside Containers: No Need for SSH
+• Package Management Basics: apt, yum, dnf, pkg
+• Docker Networks: Concepts for Private and Public
+• Docker's --format option for filtering cli output
+Container Images
+• What's In An Image
+• Official Docker Image Specification
+• The Mighty Hub: UsingDocker Hub Registry Images
+• List of Official Docker Images
+• Images and Their Layers: Discover the Image Cache
+• Images and Containers From Docker Docs
+• Image Tagging and Pushing to Docker Hub
+• Building Images: The Dockerfile and docker commit
+• Building Images: Running Docker Builds
+• Building Images: Extending Official Images
+Docker Compose: The Multi-Container Tool
+• Docker Compose and The docker-compose.yml File
+• The YAML Format: Sample Generic YAML File
+• Compose File Version Differences (Docker Docs)
+• Compose file for creating Development and QA environment
+• Setting CI-CD environment for Jenkins uisng Docker
+Docker Swarm:
+• Container Orchestration
+• Load balancing using swarm
+• Scalling using swarm
+• Handling fail over scenarios using swarm
+• Rolling updates using swarm.
+• Handling failover scenarios using swarm
+• Docker stack
+Kubernetes Introduction
+=======================================================================
+ANSIBLE(CONFIGURATION MANAGEMENT)
+========
+Ansible Introduction & Setup
+• Configuration Management & Orchestration
+• Set up of Ansible
+• Set up of controller and managed nodes
+Foundation
+• Inventory
+• Dynamic Inventory
+• Host Selection
+• Tasks
+• Plays
+• Playbook Execution
+• Ansible.cfg
+Modules and Ad hoc Commands
+• Firewalld
+• Uri
+• Get_URL
+• APT/YUM
+• Service
+• User
+• Command
+• Shell
+• Copy
+• Fetch
+• Archive / Unarchive
+• File
+• Setup
+• Debug
+• include
+• Stat
+• Git
+• Docker_contianer
+• Docker_image
+• Docker_login
+• Etc.
+YML Scripting
+• Basics of YML
+• How to write & test YML Scripts
+• YML scripting for writing Play Book.
+PlayBook for CM automation
+• Writing play books
+• Execution of playbooks
+• Playbooks for configuring
+NFS,tomcat,Apache2,FTP etc.
+• System facts and Custom facts
+• Play book Notification
+• Play book tags & handlers • Exception handling
+Advanced Execution
+• when conditions
+• Loops (with_items,with_sequence)
+
+
